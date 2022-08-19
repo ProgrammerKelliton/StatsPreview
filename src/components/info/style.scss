@@ -1,0 +1,22 @@
+.Info {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+
+    margin-top: 15%;
+}
+.Info {
+    &__value,
+    &__name {
+        color: white;
+    }
+    &__value {
+        font-weight: 800;
+        font-size: x-large;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: small;
+        text-transform: uppercase;
+    }
+}

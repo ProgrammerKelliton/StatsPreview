@@ -1,0 +1,43 @@
+@import "../styles/global.scss";
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+.App {
+    @include flex();
+    gap: 10%;
+    height: 100vh;
+    margin: 0 15vw;
+
+    &__main {
+        width: 50%;
+
+        .main__title {
+            margin-bottom: 5%;
+        }
+        .main__info {
+            @include flex();
+            gap: 10%;
+        }
+    }
+
+    &__container {
+        width: 50%;
+
+        .container__img {
+            width: 100%;
+        }
+    }
+}
+
+.App {
+    &__main {
+        .main__title,
+        .main__desc {
+            color: white;
+        }
+        .main__title--color {
+            color: hsl(277, 64%, 61%);
+        }
+    }
+}

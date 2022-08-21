@@ -66,6 +66,10 @@ body {
             border-radius: inherit;
         }
     }
+    img {
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+    }
 }
 
 @media (max-width: 670px) {
